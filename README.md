@@ -63,10 +63,12 @@ This table lets you compare how different splits performed and which parameters 
 
 ## 📈 Convergence Graph (Figure 1)
 
-Saved in: `results/convergence_plot.png`
+**Accuracy over 100 iterations using best model from best sample:**
 
-- Shows accuracy trend over **100 iterations** using the **best SVM configuration** (i.e., the one that achieved highest test accuracy).
-- Each point on the X-axis represents a different 70-30 split (with a new random seed).
+![Figure 1: Convergence graph of best SVM](convergence_plot.png)
+
+- Shows accuracy trend over **100 iterations** using the **best SVM configuration**.
+- Each point represents a different 70-30 train-test split (new random seed).
 - The Y-axis shows the classification accuracy for that iteration.
 
 **Purpose**: To illustrate how stable and consistent the best model is across different data partitions.
