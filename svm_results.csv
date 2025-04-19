@@ -1,0 +1,11 @@
+Sample,Accuracy,Best Kernel,Best C,Best Gamma,Best Degree
+1,96.67,rbf,10,auto,2
+2,97.03,rbf,10,auto,2
+3,96.78,rbf,10,scale,2
+4,96.52,rbf,10,auto,2
+5,96.9,rbf,100,scale,2
+6,96.73,rbf,100,auto,2
+7,97.0,rbf,10,scale,2
+8,96.67,rbf,100,scale,2
+9,97.12,rbf,10,scale,2
+10,96.42,rbf,100,auto,2
